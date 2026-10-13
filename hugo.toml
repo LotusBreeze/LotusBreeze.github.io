@@ -1,0 +1,18 @@
+baseURL = "https://LotusBreeze.github.io/"
+languageCode = "zh-cn"
+title = "我的个人博客"
+theme = "PaperMod"
+
+[params]
+  author = "LotusBreeze"
+  description = "这是我的个人网站"
+
+[[menu.main]]
+  name = "首页"
+  url = "/"
+  weight = 10
+
+[[menu.main]]
+  name = "文章"
+  url = "/posts/"
+  weight = 20
